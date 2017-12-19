@@ -1,0 +1,126 @@
+/*************************
+*      初始加载属性       *
+*************************/
+a {text-decoration: none}
+li {list-style: none}
+div, h1, h2, h3, h4, h5, h6, ul, li, a, form, p, tr, td, dl, dt, dd, body {margin: 0; padding: 0;}
+input {outline:none;}
+/************************
+*    End 初始加载结束    *
+*************************/
+
+
+/************************
+*       body属性         *
+*************************/
+body {
+    word-wrap: break-word;
+    background: white;
+    padding: 0;
+}
+/*************************
+*       End body属性      *
+**************************/
+
+
+/*************************
+*         all属性         *
+**************************/
+.all {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+/*************************
+*       End all属性       *
+**************************/
+
+
+/*************************
+*       header属性        *
+**************************/
+.header {
+    min-width: 1430px;
+    min-height: 60px;
+    margin: 0;
+    padding: 10px 60px;
+    position: relative;
+}
+.navigation {
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+.navigation a {
+    font-family: Tahoma;
+    color: black;
+    display: inline-block;
+    padding: 15px;
+}
+.navigation a img {
+    width: 180px;
+}
+.navigation-link {
+    float: right;
+    margin: 5px;
+    padding: 0 7px;
+}
+.navigation-link li {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+.navigation .navigation-link li input {
+    width: 170px;
+    height: 20px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.navigation-link li a {
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: black;
+}
+/*************************
+*      End header属性     *
+**************************/
+
+
+/*************************
+*       content属性       *
+**************************/
+.content {
+    min-width: 1430px;
+    min-height: 800px;
+    margin: 0 auto;
+    background: #ccc;
+}
+/*************************
+*     End content属性     *
+**************************/
+
+
+/*************************
+*       footer属性        *
+**************************/
+.footer {
+    min-width: 1430px;
+    min-height: 345px;
+    margin: 0 auto;
+    background: yellow;
+}
+/*************************
+*     End footer属性      *
+**************************/
+
+
+/*************************
+*       clear属性         *
+**************************/
+.clear {
+    clear: none;
+    width: 0px;
+    height: 0px;
+}
