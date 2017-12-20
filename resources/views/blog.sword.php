@@ -10,6 +10,7 @@
 
     <div class="all">
         <div class="header">
+            <img src="images/logo/logo.png" alt="">
         </div>
         <div class="content"></div>
         <div class="footer"></div>

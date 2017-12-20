@@ -17,6 +17,7 @@ body {
     word-wrap: break-word;
     background: white;
     padding: 0;
+    background: url('/images/bg/blog-bg.jpg');
 }
 /*************************
 *       End body属性      *
@@ -34,3 +35,9 @@ body {
 /*************************
 *       End all属性       *
 **************************/
+
+.header {
+    width: 100%;
+    height: 300px;
+    background: red;
+}
