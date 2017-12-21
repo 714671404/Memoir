@@ -6,7 +6,6 @@
 
     <!-- css 引入文件区 -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <!-- End 引入文件区 -->
 
     <!-- js  引入文件区 -->
