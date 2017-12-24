@@ -3,7 +3,7 @@
 *************************/
 a {text-decoration: none}
 li {list-style: none}
-div, h1, h2, h3, h4, h5, h6, ul, li, a, form, p, tr, td, dl, dt, dd, body {margin: 0; padding: 0;}
+div, h1, h2, h3, h4, h5, h6, ul, li, a, form, p, tr, td, dl, dt, dd, body {margin: 0; padding: 0; font-size: 14px;}
 input {outline:none;}
 /************************
 *    End 初始加载结束    *
@@ -14,10 +14,11 @@ input {outline:none;}
 *       body属性         *
 *************************/
 body {
+    position: relative;
     word-wrap: break-word;
     background: white;
     padding: 0;
-    background: url('/images/bg/blog-bg.jpg');
+    background: rgb(100,100,100)
 }
 /*************************
 *       End body属性      *
@@ -28,7 +29,6 @@ body {
 *         all属性         *
 **************************/
 .all {
-    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -36,8 +36,112 @@ body {
 *       End all属性       *
 **************************/
 
+
+/*************************
+*        header           *
+**************************/
 .header {
-    width: 100%;
-    height: 300px;
-    background: red;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo a img {
+    width: 130px;
+    height: 130px;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 0;
+}
+.logo h1 {
+    font-size: 40px;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    color: #ee9285;
+    margin: 0;
+}
+.logo p {
+    font-size: 23px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: #ee9285;
+    margin: 20px;
+}
+.navigation {
+    padding: 5px;
+    margin-top: 15px;
+}
+.navigation .top-navigation {
+    padding: 0 20px;
+}
+.top-navigation .a-navigation {
+    border-radius: 5px;
+    width: 1306px;
+    height: 55px;
+    background: white;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.top-navigation .a-navigation li {
+    margin-right: 3px;
+    padding: 17px;
+    float: left;
+}
+.top-navigation .a-navigation a {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: 100;
+    color: black;
+}
+/*************************
+*       End header        *
+**************************/
+
+
+/*************************
+*        content          *
+**************************/
+.content {
+    width: 1314px;
+    margin: 0 auto;
+}
+.content .content-list {
+    margin-top: 40px;
+    padding: 40px 40px 35px;
+    background: white;
+    border-radius: 5px;
+}
+.content-list h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+.content-list h2 a {
+    font-size: 30px;
+    font-family: 仿宋;
+    font-weight: 900;
+    color: #ee9285;
+}
+.content-list div {
+    text-align: right;
+}
+.content-list div a {
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 仿宋;
+    color: #ee9285;
+}
+/*************************
+*       End content       *
+**************************/
+
+
+/*************************
+*       clear属性         *
+**************************/
+.clear {
+    clear: none;
+    width: 0px;
+    height: 0px;
 }

@@ -2,11 +2,12 @@
 <html>
 <head>
     <meta lang="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
     <title>Aggis 's Blog</title>
 
     <!-- css 引入文件区 -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <!-- End 引入文件区 -->
 
     <!-- js  引入文件区 -->
