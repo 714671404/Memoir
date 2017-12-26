@@ -5,7 +5,7 @@
 
     <ul class="navigation-link">
         <li>
-            <input type="text" name="select">
+            <a><input type="text" name="select"></a>
         </li>
         <li><a href="blog">BLOG</a></li>
     </ul>

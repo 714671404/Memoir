@@ -10,4 +10,4 @@ $url = $_SERVER['REQUEST_URI'];
 if ($url === '/') {
     $url = 'index';
 }
-require_once MEMOIR_PATH . '/resources/views/'."$url".'.sword.php';
+require_once MEMOIR_PATH . '/resources/views/' . "$url" . '.sword.php';

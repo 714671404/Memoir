@@ -1,0 +1,193 @@
+/************************
+*       body属性         *
+*************************/
+body {
+    position: relative;
+    word-wrap: break-word;
+    background: white;
+    padding: 0;
+    background: rgb(100,100,100)
+}
+/*************************
+*       End body属性      *
+**************************/
+
+
+/*************************
+*         all属性         *
+**************************/
+.all {
+    margin: 0 auto;
+    padding: 0;
+}
+/*************************
+*       End all属性       *
+**************************/
+
+
+/*************************
+*        header           *
+**************************/
+.blog-header {
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo a img {
+    width: 130px;
+    height: 130px;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 0;
+}
+.logo h1 {
+    font-size: 40px;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    color: #ee9285;
+    margin: 0;
+}
+.logo p {
+    font-size: 23px;
+    font-family: 微软雅黑;
+    font-weight: 300;
+    color: #ee9285;
+    margin: 20px;
+}
+.navigation {
+    padding: 5px;
+    margin-top: 15px;
+}
+.navigation .top-navigation {
+    padding: 0 20px;
+}
+.top-navigation .a-navigation {
+    border-radius: 5px;
+    width: 1306px;
+    height: 55px;
+    background: white;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.top-navigation .a-navigation li {
+    margin-right: 3px;
+    padding: 17px;
+    float: left;
+}
+.top-navigation .a-navigation a {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    font-weight: 100;
+    color: black;
+}
+/*************************
+*       End header        *
+**************************/
+
+
+/*************************
+*        content          *
+**************************/
+.blog-content {
+    width: 1314px;
+    margin: 0 auto;
+}
+.blog-content .content-list {
+    margin-top: 40px;
+    padding: 40px 40px 35px;
+    background: white;
+    border-radius: 5px;
+}
+.content-list h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+.content-list h2 a {
+    font-size: 30px;
+    font-family: 仿宋;
+    font-weight: 900;
+    color: #ee9285;
+}
+.content-list div {
+    text-align: right;
+}
+.content-list div a {
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 仿宋;
+    color: #ee9285;
+}
+/*************************
+*       End content       *
+**************************/
+
+
+/*************************
+*         footer          *
+**************************/
+.blog-footer {
+    width: 1314px;
+    margin: 0 auto;
+}
+.blog-details {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 等线;
+    font-weight: 100;
+    color: white;
+}
+/*************************
+*         footer          *
+**************************/
+
+
+
+/*************************
+*      博客详情页属性      *
+**************************/
+.content-show {
+    width: 1314px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 5px;
+    padding: 0;
+    height: 1000px;
+}
+.show-list {
+    margin: 0 auto;
+    padding: 30px 60px;
+    text-align: center;
+}
+.show-title {
+    border-bottom: 1px solid #efefef;
+    margin-top: 50px;
+}
+.show-list .title {
+    margin: 0 auto;
+    padding: 0 60px;
+    font-size: 26px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    color: #ee9285;
+    letter-spacing: 3px;
+}
+.blog-show-time {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: rgb(0,0,0);
+    padding: 20px 60px;
+}
+
+/*************************
+*    End 博客详情页属性    *
+**************************/

@@ -2,15 +2,12 @@
 <html>
 <head>
     <meta lang="UTF-8">
-    <title>Aggis 's Blog</title>
-
-    <!-- css 引入文件区 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>AGGIS 'S BLOG</title>
+    <link href="images/ico/blog-favico.ico" rel="icon">
+    <link href="css/default-property.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <!-- End 引入文件区 -->
-
-    <!-- js  引入文件区 -->
-    <!-- End 引入文件区 -->
-
 </head>
 
 <body>
@@ -19,7 +16,7 @@
     <div class="all">
 
         <div class="header">
-            <?php include MEMOIR_PATH . '/resources/views/introduced/header.ico.php'?>
+            <?php require_once MEMOIR_PATH . '/resources/views/include/header.ico.php'?>
         </div>
 
         <div class="content">&nbsp;</div>
@@ -28,5 +25,8 @@
 
     </div>
     <!--  End 最外层div  -->
+
+    <script src="js/vue/vue.min.js" type="text/javascript"></script>
+    <script src="js/index.vue.js" type="text/javascript"></script>
 </body>
 </html>
