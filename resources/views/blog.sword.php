@@ -22,10 +22,10 @@
         <!--End上半部分-->
 
         <!--内容-->
-        <div class="blog-content">
-            <div class="content-list">
-                <h2><a href="blog-show">开始学习 HTML CSS 基础知识</a></h2>
-                <div><a href="blog-show">2017-12-25 00:56:39</a></div>
+        <div class="blog-content" id="blog-content">
+            <div class="blog-content-list" v-for="todo in todos">
+                <h2><a v-bind:href="todo._href">{{ todo._title }}</a></h2>
+                <div><a v-bind:href="todo._href">{{ todo._time }}</a></div>
             </div>
         </div>
         <!--End 内容-->
@@ -37,6 +37,6 @@
     <!--End 最外层-->
 
     <script src="js/vue/vue.min.js" type="text/javascript"></script>
-    <script src="js/blog.js" type="text/javascript"></script>
+    <script src="js/blog/blog.js" type="text/javascript"></script>
 </body>
 </html>

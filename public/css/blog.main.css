@@ -91,8 +91,28 @@ body {
 *        content          *
 **************************/
 .blog-content {
-    width: 1314px;
-    margin: 0 auto;
+    max-width: 1314px;
+    margin: 40px auto;
+}
+.blog-content-list {
+    height: 130px;
+    padding: 30px 60px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+}
+.blog-content-list h2 a {
+    font-size: 30px;
+    line-height: 130px;
+    letter-spacing: 3px;
+    color: #ee9285;
+}
+.blog-content-list div {
+    text-align: right;
+}
+.blog-content-list div a {
+    color: rgb(255,0,0);
 }
 /*************************
 *       End content       *

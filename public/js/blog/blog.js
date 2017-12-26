@@ -7,6 +7,15 @@ var app = new Vue({
         ]
     }
 })
+var blog_content = new Vue({
+    el: '#blog-content',
+    data: {
+        todos: [
+            {_href: 'blog-show', _title: '学习 HTML CSS 基础知识（一）', _time: '2017-12-27'},
+            {_href: 'blog-show', _title: '学习 HTML CSS 基础知识（一）', _time: '2017-12-27'}
+        ]
+    }
+})
 var content_show = new Vue({
     el: '#content-show',
     data: {
