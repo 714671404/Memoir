@@ -1,4 +1,4 @@
-var a_navigation = new Vue({
+var app = new Vue({
     el: '#a-navigation',
     data: {
         a_navigation: [
@@ -6,4 +6,4 @@ var a_navigation = new Vue({
             {href: 'blog', name: '首页'}
         ]
     }
-});
+})

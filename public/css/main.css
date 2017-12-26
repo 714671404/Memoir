@@ -1,23 +1,11 @@
-/*************************
-*      初始加载属性       *
-*************************/
-a {text-decoration: none}
-li {list-style: none}
-div, h1, h2, h3, h4, h5, h6, ul, li, a, form, p, tr, td, dl, dt, dd, body {margin: 0; padding: 0;}
-input {outline:none;}
-/************************
-*    End 初始加载结束    *
-*************************/
-
-
 /************************
 *       body属性         *
 *************************/
 body {
     word-wrap: break-word;
-    background: white;
-    background: url('/images/bg/bg.gif');
     padding: 0;
+    /*background: url('/images/bg/bg.gif');*/
+    background: rgb(100,100,100);
 }
 /*************************
 *       End body属性      *
@@ -114,12 +102,3 @@ body {
 *     End footer属性      *
 **************************/
 
-
-/*************************
-*       clear属性         *
-**************************/
-.clear {
-     clear: none;
-     width: 0px;
-     height: 0px;
- }

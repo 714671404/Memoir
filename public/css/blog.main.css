@@ -1,15 +1,3 @@
-/*************************
-*      初始加载属性       *
-*************************/
-a {text-decoration: none}
-li {list-style: none}
-div, h1, h2, h3, h4, h5, h6, ul, li, a, form, p, tr, td, dl, dt, dd, body {margin: 0; padding: 0; font-size: 14px;}
-input {outline:none;}
-/************************
-*    End 初始加载结束    *
-*************************/
-
-
 /************************
 *       body属性         *
 *************************/
@@ -40,7 +28,7 @@ body {
 /*************************
 *        header           *
 **************************/
-.header {
+.blog-header {
     padding-top: 20px;
     margin: 0 auto;
     text-align: center;
@@ -102,11 +90,11 @@ body {
 /*************************
 *        content          *
 **************************/
-.content {
+.blog-content {
     width: 1314px;
     margin: 0 auto;
 }
-.content .content-list {
+.blog-content .content-list {
     margin-top: 40px;
     padding: 40px 40px 35px;
     background: white;
@@ -138,10 +126,57 @@ body {
 
 
 /*************************
-*       clear属性         *
+*         footer          *
 **************************/
-.clear {
-    clear: none;
-    width: 0px;
-    height: 0px;
+.blog-footer {
+    width: 1314px;
+    margin: 0 auto;
 }
+.blog-details {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 等线;
+    font-weight: 100;
+    color: white;
+}
+/*************************
+*         footer          *
+**************************/
+
+
+
+/*************************
+*      博客详情页属性      *
+**************************/
+.content-show {
+    width: 1314px;
+    margin: 0 auto;
+}
+.show-list {
+    background: white;
+    margin-top: 40px;
+}
+.show-list .show-list-title {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 微软雅黑;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding: 20px 0;
+}
+.content-show .blog-show-author {
+    margin-top:23px;
+    padding: 10px 60px;
+    text-align: center;
+}
+.content-list p {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/*************************
+*    End 博客详情页属性    *
+**************************/
