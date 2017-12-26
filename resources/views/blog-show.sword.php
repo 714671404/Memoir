@@ -23,12 +23,12 @@
         <!--content-show-->
         <div class="content-show">
             <div class="show-list">
-                <h2 class="show-list-title">开始学习 HTML CSS 基础知识</h2>
+                <h2 class="show-list-title">ie 兼容问题 相关记录</h2>
                 <p class="blog-show-author">
-                    <span>2017年12月26日</span>
-                    <span>/</span>
+                    <span>2017-12-26</span>
                 </p>
             </div>
+            <div>aaaaaaaaaaaaaa</div>
         </div>
         <!--End content-show-->
 

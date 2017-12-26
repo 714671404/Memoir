@@ -154,29 +154,9 @@ body {
 .content-show {
     width: 1314px;
     margin: 0 auto;
-}
-.show-list {
     background: white;
-    margin-top: 40px;
+    border-radius: 5px;
 }
-.show-list .show-list-title {
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 微软雅黑;
-    color: rgb(0,0,0);
-    text-align: center;
-    padding: 20px 0;
-}
-.content-show .blog-show-author {
-    margin-top:23px;
-    padding: 10px 60px;
-    text-align: center;
-}
-.content-list p {
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
 /*************************
 *    End 博客详情页属性    *
 **************************/
