@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta lang="UTF-8">
-    <title>Aggis 's Growth Diary</title>
+    <title>Aggis 's Blog</title>
 
     <!-- css 引入文件区 -->
     <link href="css/main.css" rel="stylesheet">

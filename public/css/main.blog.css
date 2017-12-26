@@ -15,11 +15,9 @@ input {outline:none;}
 *************************/
 body {
     word-wrap: break-word;
-    background: white;
+    margin: 0;
     padding: 0;
-    background: url("/images/bg/blog_bg.jpg");
-    background-size: 100%;
-    height: 10000000px;
+    background: url('/images/bg/blog-bg.jpg');
 }
 /*************************
 *       End body属性      *
@@ -37,3 +35,9 @@ body {
 /*************************
 *       End all属性       *
 **************************/
+
+.header {
+    width: 100%;
+    height: 300px;
+
+}

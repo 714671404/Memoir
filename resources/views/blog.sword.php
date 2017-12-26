@@ -1,3 +1,9 @@
+<?php
+session_start();
+session_name('ceshi');
+var_dump(session_name());
+exit;
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +16,7 @@
 
     <div class="all">
         <div class="header">
-
+            <img src="images/logo/logo.png" alt="">
         </div>
         <div class="content"></div>
         <div class="footer"></div>
