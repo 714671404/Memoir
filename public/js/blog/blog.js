@@ -7,3 +7,15 @@ var app = new Vue({
         ]
     }
 })
+var content_show = new Vue({
+    el: '#content-show',
+    data: {
+        titles: [
+            {message: '2017-12-26'},
+            {message: '/'},
+            {message: '阅读数：0'},
+            {message: '/'},
+            {message: '分类：HTML CSS'},
+        ]
+    }
+})
